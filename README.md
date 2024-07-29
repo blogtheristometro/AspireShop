@@ -1,4 +1,4 @@
-# .NET Aspire Samples
+# .NET Aspire Samples blogtheristo Version
 
 [![CI (main)](https://github.com/dotnet/aspire-samples/actions/workflows/ci.yml/badge.svg)](https://github.com/dotnet/aspire-samples/actions/workflows/ci.yml)
 
