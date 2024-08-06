@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="Aspire.Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.1.0" />
+    <PackageReference Include="Dapr.AspNetCore" Version="1.13.1" />
   </ItemGroup>
 
 </Project>
