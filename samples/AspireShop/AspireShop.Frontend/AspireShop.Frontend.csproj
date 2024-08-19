@@ -9,6 +9,7 @@
   <ItemGroup>
     <PackageReference Include="Azure.AI.Inference" Version="1.0.0-beta.1" />
     <PackageReference Include="Dapr.AspNetCore" Version="1.14.0" />
+    <PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="8.0.0" />
     <PackageReference Include="Microsoft.Extensions.ServiceDiscovery.Yarp" Version="8.1.0" />
     <PackageReference Include="Yarp.ReverseProxy" Version="2.1.0" />
     <PackageReference Include="Grpc.Net.ClientFactory" Version="2.65.0" />
