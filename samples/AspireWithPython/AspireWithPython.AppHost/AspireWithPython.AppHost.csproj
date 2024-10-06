@@ -6,17 +6,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <IsAspireHost>true</IsAspireHost>
+    <UserSecretsId>b9e5fdd6-2593-4cd8-8476-b158813a7f94</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DatabaseContainers.ApiService\DatabaseContainers.ApiService.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Aspire.Hosting.AppHost" Version="8.2.0" />
-    <PackageReference Include="Aspire.Hosting.MySql" Version="8.2.0" />
-    <PackageReference Include="Aspire.Hosting.PostgreSQL" Version="8.2.0" />
-    <PackageReference Include="Aspire.Hosting.SqlServer" Version="8.2.0" />
+    <PackageReference Include="Aspire.Hosting.Python" Version="8.2.0" />
   </ItemGroup>
 
 </Project>
