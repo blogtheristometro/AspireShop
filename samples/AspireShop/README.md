@@ -16,8 +16,8 @@ description: "An example shop app written with .NET Aspire."
 
 The app consists of four services:
 
-- **AspireShop.Frontend**: This is a Blazor app that displays a paginated catlog of products and allows users to add products to a shopping cart.
-- **AspireShop.CatalogService**: This is an HTTP API that provides access to the catalog of products stored in a PostgreSQL database.
+- **AspireShop.Frontend**: This is a Blazor app that displays a paginated catalog of products and allows users to add products to a shopping cart.
+- **AspireShop.CatalogService**: This is an HTTP API that provides access to the catalog of products stored in a PostgresSQL database.
 - **AspireShop.CatalogDbManager**: This is an HTTP API that manages the initialization and updating of the catalog database.
 - **AspireShop.BasketService**: This is a gRPC service that provides access to the shopping cart stored in Redis.
 
@@ -27,7 +27,7 @@ The app also includes a class library project, **AspireShop.ServiceDefaults**, t
 
 - [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
-- **Optional** [Visual Studio 2022 17.10](https://visualstudio.microsoft.com/vs/preview/)
+- [Visual Studio 2022 17.12 Preview](https://visualstudio.microsoft.com/vs/preview/)
 
 ## Running the app
 
